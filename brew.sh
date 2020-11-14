@@ -9,6 +9,7 @@ brew upgrade
 # install binaries
 brew install autojump
 brew install awscli
+brew install dockutil
 brew install gh
 brew install git
 brew install nvm
