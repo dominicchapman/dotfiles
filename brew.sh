@@ -40,8 +40,8 @@ brew cask install zoomus
 # install fonts
 brew tap homebrew/cask-fonts
 brew cask install font-fira-code
-brew cask install font-firacode-nerd-font
-brew cask install font-firacode-nerd-font-mono
+brew cask install font-fira-code-nerd-font
+brew cask install font-fira-code-nerd-font-mono
 brew cask install font-input
 
 # remove stale lock files and outdated downloads
