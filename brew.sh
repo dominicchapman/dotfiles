@@ -25,10 +25,6 @@ brew cask install 1password
 brew cask install docker
 brew cask install figma
 brew cask install firefox
-brew cask install font-fira-code
-brew cask install font-firacode-nerd-font
-brew cask install font-firacode-nerd-font-mono
-brew cask install font-input
 brew cask install github
 brew cask install google-chrome
 brew cask install iterm2
@@ -40,6 +36,13 @@ brew cask install spotify
 brew cask install tableplus
 brew cask install visual-studio-code
 brew cask install zoomus
+
+# install fonts
+brew tap homebrew/cask-fonts
+brew cask install font-fira-code
+brew cask install font-firacode-nerd-font
+brew cask install font-firacode-nerd-font-mono
+brew cask install font-input
 
 # remove stale lock files and outdated downloads
 brew cleanup
