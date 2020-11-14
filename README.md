@@ -26,3 +26,11 @@ git clone git@github.com:dominicchapman/dotfiles.git
 ```
 
 Running `./setup.sh` will install binaries and application with Homebrew.
+
+Running `./mac/dock.sh` and `./mac/defaults.sh` will add sensible defaults for the macOS Dock and the operating system more generally.
+
+We can add Oh My Zsh with `curl`.
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```

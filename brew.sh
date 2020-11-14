@@ -14,14 +14,21 @@ brew install gh
 brew install git
 brew install nvm
 brew install postgresql
+brew install starship
 brew install tree
 brew install yarn
+brew install zsh-autosuggestions
+brew install zsh-syntax-highlighting
 
 # install GUI macOS applications
 brew cask install 1password
 brew cask install docker
 brew cask install figma
 brew cask install firefox
+brew cask install font-fira-code
+brew cask install font-firacode-nerd-font
+brew cask install font-firacode-nerd-font-mono
+brew cask install font-input
 brew cask install github
 brew cask install google-chrome
 brew cask install iterm2
