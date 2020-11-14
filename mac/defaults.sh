@@ -13,9 +13,9 @@ defaults write com.apple.menuextra.battery ShowPercent YES
 defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 
-# set trackpad speed
-defaults write com.apple.trackpad.scaling 2.5
-defaults write com.apple.mouse.scaling 2.5
+# set trackpad / mouse speed
+defaults write -g com.apple.trackpad.scaling 2.5
+defaults write -g com.apple.mouse.scaling 2.5
 
 ########################################
 # screen                               #
