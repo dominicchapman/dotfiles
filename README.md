@@ -34,3 +34,7 @@ We can add Oh My Zsh with `curl`.
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+
+## Activating
+
+Either move dotfiles to the root directory or use symbolic links (symlink) to open the files from the directory this repository was cloned into.
