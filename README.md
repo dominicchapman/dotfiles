@@ -19,13 +19,33 @@ Homebrew can be used to install apps and binaries.
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
-With `git` we can now clone this repository to our desired destination.
+With `git` available we can now clone this repository to our desired destination.
 
 ```bash
 git clone git@github.com:dominicchapman/dotfiles.git
 ```
 
 Running `./setup.sh` will install binaries and application with Homebrew.
+
+> Please note that upstream has asked us to make explicit managing nvm via Homebrew is unsupported by them and you should check any problems against the standard nvm install method prior to reporting.
+
+To have a working copy of (`nvm`)[https://formulae.brew.sh/formula/nvm] through Homebrew we should create NVM’s working directory if it does not exist and add the following code snippet to our desired shell configuration file (`.zshrc`).
+
+```bash
+mkdir ~/.nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$(brew --prefix)/opt/nvm/nvm.sh" ] && . "$(brew --prefix)/opt/nvm/nvm.sh"
+[ -s "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" ] && . "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm"
+```
+
+To manage Node entirely with `nvm` we must first uninstall any dependents like Yarn for the existing version of Node. Once Node itself has been uninstalled we can review the remote Node options and install our desired version.
+
+```bash
+brew uninstall yarn
+brew uninstall node
+nvm ls-remote
+nvm install lts/erbium
+```
 
 Running `./mac/dock.sh` and `./mac/defaults.sh` will add sensible defaults for the macOS Dock and the operating system more generally.
 
