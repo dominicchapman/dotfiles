@@ -1,0 +1,17 @@
+{
+  "breadcrumbs.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "Input Mono Narrow",
+  "editor.fontSize": 16,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "explorer.compactFolders": false,
+  "search.searchOnType": true,
+  "window.zoomLevel": 2,
+  "workbench.colorTheme": "Night Owl (No Italics)",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false
+}
