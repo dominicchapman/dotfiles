@@ -1,0 +1,12 @@
+[user]
+	name = Dominic Chapman
+	email = dominicchapman@users.noreply.github.com
+
+[github]
+  user = dominicchapman
+
+[alias]
+  cm = commit -m
+  p = pull
+  pu = push
+  s = status -s
