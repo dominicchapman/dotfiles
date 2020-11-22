@@ -44,5 +44,9 @@ brew cask install font-fira-code
 brew cask install font-fira-code-nerd-font
 brew cask install font-input
 
+# install terraform
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
+
 # remove stale lock files and outdated downloads
 brew cleanup
