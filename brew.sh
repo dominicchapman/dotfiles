@@ -32,6 +32,7 @@ brew cask install linear-linear
 brew cask install loom
 brew cask install miro
 brew cask install notion
+brew cask install rectangle
 brew cask install slack
 brew cask install spotify
 brew cask install tableplus
