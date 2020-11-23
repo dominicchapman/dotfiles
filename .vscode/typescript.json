@@ -1,0 +1,7 @@
+{
+  "TypeScript Quick Export": {
+    "prefix": "qex",
+    "body": ["export { $2 } from '.$1'"],
+    "description": "TypeScript Quick Export"
+  }
+}
