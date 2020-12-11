@@ -1,6 +1,6 @@
 {
   "breadcrumbs.enabled": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "cSpell.diagnosticLevel": "Hint",
   "editor.detectIndentation": false,
   "editor.fontFamily": "Input Mono Narrow",
   "editor.fontSize": 16,
@@ -10,8 +10,19 @@
   "editor.tabSize": 2,
   "explorer.compactFolders": false,
   "search.searchOnType": true,
+  "wallaby.startAutomatically": false,
   "window.zoomLevel": 2,
   "workbench.colorTheme": "Night Owl (No Italics)",
   "workbench.editor.enablePreview": false,
-  "workbench.editor.enablePreviewFromQuickOpen": false
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
