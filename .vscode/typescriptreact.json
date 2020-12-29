@@ -15,15 +15,5 @@
       "};"
     ],
     "description": "TypeScript React Function Component"
-  },
-  "TypeScript Quick Export": {
-    "prefix": "qex",
-    "body": ["export { $2 } from '.$1';"],
-    "description": "TypeScript Quick Export"
-  },
-  "TypeScript Quick Import": {
-    "prefix": "qim",
-    "body": ["import { $2 } from '$1';"],
-    "description": "TypeScript Quick Export"
   }
 }
