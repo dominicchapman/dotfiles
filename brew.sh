@@ -28,7 +28,6 @@ brew cask install firefox
 brew cask install github
 brew cask install google-chrome
 brew cask install iterm2
-brew cask install linear-linear
 brew cask install loom
 brew cask install miro
 brew cask install notion
