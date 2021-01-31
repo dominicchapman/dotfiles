@@ -10,3 +10,7 @@
   p = pull
   pu = push
   s = status -s
+
+[core]
+	editor = code --wait
+	autocrlf = input
