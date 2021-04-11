@@ -21,28 +21,28 @@ brew install zsh-autosuggestions
 brew install zsh-syntax-highlighting
 
 # install GUI macOS applications
-brew cask install 1password
-brew cask install docker
-brew cask install figma
-brew cask install firefox
-brew cask install github
-brew cask install google-chrome
-brew cask install iterm2
-brew cask install loom
-brew cask install miro
-brew cask install notion
-brew cask install rectangle
-brew cask install slack
-brew cask install spotify
-brew cask install tableplus
-brew cask install visual-studio-code
-brew cask install zoomus
+brew install --cask 1password
+brew install --cask docker
+brew install --cask figma
+brew install --cask firefox
+brew install --cask github
+brew install --cask google-chrome
+brew install --cask iterm2
+brew install --cask loom
+brew install --cask miro
+brew install --cask notion
+brew install --cask rectangle
+brew install --cask slack
+brew install --cask spotify
+brew install --cask tableplus
+brew install --cask visual-studio-code
+brew install --cask zoomus
 
 # install fonts
 brew tap homebrew/cask-fonts
-brew cask install font-fira-code
-brew cask install font-fira-code-nerd-font
-brew cask install font-input
+brew install font-fira-code
+brew install font-fira-code-nerd-font
+brew install font-input
 
 # install terraform
 brew tap hashicorp/tap
