@@ -30,6 +30,7 @@ brew install --cask google-chrome
 brew install --cask iterm2
 brew install --cask loom
 brew install --cask miro
+brew install --cask monodraw
 brew install --cask notion
 brew install --cask rectangle
 brew install --cask slack
