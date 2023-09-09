@@ -51,6 +51,19 @@ Move dotfiles to the root directory or use symlinks to open the files from the d
 
 ## Other
 
+### SSH keys for GitHub
+
+Check for existing SSH keys.
+
+```bash
+ls -al ~/.ssh
+```
+
+Follow [these steps](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) to generate a new SSH key and add it to ssh-agent.
+
+Follow [these steps](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) to add a new SSH key to a GitHub account.
+
+
 ### Chrome
 
 - Install [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
